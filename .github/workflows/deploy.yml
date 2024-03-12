@@ -39,5 +39,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "jofranchett-svelte-depl-33"
-          entrypoint: "index.js" # 📝 Update the entrypoint if necessary
+          entrypoint: "server.js" # 📝 Update the entrypoint if necessary
           root: "build" # 📝 Update the root if necessary
