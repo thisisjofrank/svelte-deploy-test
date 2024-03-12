@@ -38,6 +38,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "jofranchett-svelte-depl-45"
+          project: "jofranchett-svelte-depl-23"
           entrypoint: "index.js" # 📝 Update the entrypoint if necessary
           root: "build" # 📝 Update the root if necessary
